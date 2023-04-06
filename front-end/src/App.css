@@ -1,0 +1,11 @@
+.Contrainer{
+  display: flex;
+  width: 100%;
+  background-color: #FCFFE7 ;
+}
+
+.Content{
+  padding: 20px;
+  height: calc(100vh - 180px);
+  box-sizing: border-box;
+}

@@ -1,0 +1,15 @@
+.Contact-contrainer{
+    width: calc(100vw - 180px);
+    box-sizing: border-box;
+}
+.Contact-header{
+    position: relative;
+    margin: 0px;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.Contact-header h2{
+    margin: 15px auto;
+}

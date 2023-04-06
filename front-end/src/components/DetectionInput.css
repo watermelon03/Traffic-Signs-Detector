@@ -1,0 +1,33 @@
+.Detection-content-input{
+    justify-content: center;
+    align-items: center;
+}
+
+.Detection-content-input p{
+    margin: 10px auto;
+}
+.Detection-content-input-img{
+    display: flex;
+    width: 380px;
+    height: 260px;
+    border: 1px solid gray;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(201, 199, 197, 0.801);
+}
+
+.Detection-content-input img{
+    max-width: 380px;
+    max-height: 260px;
+}
+
+.Detection-content-input-button{
+    background-color:#5170d6;
+    color:  #FCFFE7;
+    font-size: 14px;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}

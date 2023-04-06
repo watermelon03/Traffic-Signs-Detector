@@ -1,0 +1,11 @@
+.App-header{
+    display: flex;
+    border-bottom: 3px solid  #2B3467;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B3467;
+    color: #FCFFE7;
+}
+

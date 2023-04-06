@@ -1,0 +1,55 @@
+.Video-contrainer{
+    width: calc(100vw - 180px);
+    box-sizing: border-box;
+}
+.Video-header{
+    position: relative;
+    margin: 0px;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.Video-header h2{
+    margin: 15px auto;
+}
+ 
+.Video-content{
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    row-gap: 20px;
+    padding: 10px 12px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.Video-button{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.Video-button-submit{
+    background-color: #92e0a7;
+    color: black;
+    font-size: 16px;
+    border: none;
+    margin-right: 35px;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Video-button-clear{
+    background-color:#baadae;
+    color: black;
+    font-size: 16px;
+    border: none;
+    padding: 10px 16px;
+    margin-left: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+}

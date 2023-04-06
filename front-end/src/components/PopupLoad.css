@@ -1,0 +1,25 @@
+.Popup-load{
+    background-color:rgba(0, 0, 0, 0.534);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.Popup-load-block{
+    margin: 130px auto;
+    width: calc(100vw - 55%);
+    height: calc(100vh - 280px);
+    border: 1px solid gray;
+    text-align: center;
+    align-items: center;
+    background-color: #FCFFE7;;
+    border-radius: 10px;
+}
+
+.Popup-load-block img{
+    max-width: 480px;
+    max-height: 480px;
+}
